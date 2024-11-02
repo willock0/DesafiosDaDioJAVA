@@ -12,8 +12,8 @@ body{
     user-select: none;
 }
 .container{
-    height: 75%;
-    width: 75%;
+    height: 100%;
+   width: 90%;
     position: relative;
     display: flex;
     flex-direction: column;
