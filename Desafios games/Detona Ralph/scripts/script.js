@@ -72,7 +72,7 @@ function countDown(){
 }
 
 function playSound() {
-    let audio = new Audio('./hit.m4a');
+    let audio = new Audio('../audios/hit.m4a');
     audio.play().catch(error => {
         console.log("Erro ao reproduzir o áudio:", error);
     });
